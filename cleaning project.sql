@@ -147,7 +147,7 @@ where country like 'united states.';
  where total_laid_off is null
  AND percentage_laid_off is null;
  
-DElete                   -- data is deleted bcz bohot total laid and percentage are null so these rows are unuseful
+DElete                   -- data is deleted bcz both total laid and percentage are null so these rows are unuseful
  from layoffs_staging2
  where total_laid_off is null
  AND percentage_laid_off is null;
